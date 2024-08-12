@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* App.css */
+
+/* App.css */
+
+.App {
+  text-align: center;
+  width: 50%;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #ff6b6b, #dac931);
+  padding: 20px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+
+h2 {
+  color: #fff;
+  text-shadow: 2px 2px 8px #000000;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 50%;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2e7ed3;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.Dogs {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(45deg, #ff6b6b, #dac931);
+}
+
+.Dog {
+  background: linear-gradient(45deg, #ff6b6b, #dac931);
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  padding: 15px 50px;
+  align-items: center;
+  color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.Dog img {
+  border-radius: 5px;
+}
+
+.Dog:hover {
+  transform: scale(1.05);
+}
